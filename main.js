@@ -1,16 +1,19 @@
-const formData = new FormData(form);
 
 
-const btn = document.querySelector('#submit');
-const form = document.querySelector('#submit-form');
+eventer = () => {
+
+    let name = document.getElementById("name").value;
+    let day = document.getElementById("day").value;
+    let time = document.getElementById("time").value;
+    // let class_name = "event-" + day + "-" time;
+
+    let total = name + day + time
+
+    console.log(total);
 
 
-btn.addEventListener('click', (e) => {
-    // prevent the form from submitting
-    e.preventDefault();
 
-    // show the form values
-    const formData = new FormData(form);
-    const values = [...formData.entries()];
-    console.log(values);
-});
+    document.getElementById("event-mon-09").innerHTML+= name
+
+
+}
