@@ -11,7 +11,7 @@
   <body>
     <main>
       <div class="cal">
-        <div class="cal-column">
+        <div class="cal-column cal-column_time ">
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot">9:00</div>
             <div class="cal-column-slot">10:00</div>
@@ -24,7 +24,7 @@
             <div class="cal-column-slot">17:00</div>
         </div>
         <div class="cal-column">
-            <div class="cal-column-slot">Monday</div>
+            <div class="cal-column-slot cal-column-slot_day">Monday</div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
@@ -36,7 +36,7 @@
             <div class="cal-column-slot"></div>
         </div>
         <div class="cal-column">
-            <div class="cal-column-slot">Tuesday</div>
+            <div class="cal-column-slot cal-column-slot_day">Tuesday</div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
@@ -48,7 +48,7 @@
             <div class="cal-column-slot"></div>
         </div>
         <div class="cal-column">
-            <div class="cal-column-slot">Wednesday</div>
+            <div class="cal-column-slot cal-column-slot_day">Wednesday</div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
@@ -60,7 +60,7 @@
             <div class="cal-column-slot"></div>
         </div>
         <div class="cal-column">
-            <div class="cal-column-slot">Thursday</div>
+            <div class="cal-column-slot cal-column-slot_day">Thursday</div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
@@ -72,7 +72,7 @@
             <div class="cal-column-slot"></div>
         </div>
         <div class="cal-column">
-            <div class="cal-column-slot">Friday</div>
+            <div class="cal-column-slot cal-column-slot_day">Friday</div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
             <div class="cal-column-slot"></div>
@@ -84,21 +84,21 @@
             <div class="cal-column-slot"></div>
         </div>
       </div>
-      <form>
-        <label for="fname">Event Name:</label><br>
+      <form id="submit-form">
+        <label for="fname">Event Name:</label>
         <input type="text" id="name" name="name"><br>
 
         <label for="day">Day of the week</label>
-            <select id="day" name="day" size="4" multiple>
+            <select id="day" name="day">
             <option value="Monday">Volvo</option>
             <option value="Tuesday">Saab</option>
             <option value="Wednesday">Fiat</option>
             <option value="Thursday">Audi</option>
             <option value="Friday">Audi</option>
-        </select>
+        </select><br>
 
         <label for="time">Time of day</label>
-        <select id="time" name="time" size="4" multiple>
+        <select id="time" name="time">
             <option value="time">9:00</option>
             <option value="time">10:00</option>
             <option value="time">11:00</option>
@@ -108,11 +108,11 @@
             <option value="time">15:00</option>
             <option value="time">16:00</option>
             <option value="time">17:00</option>
-        </select>
+        </select><br>
 
         <input type="submit" value="Submit">
       </form>
     </main>
-	<script src="index.js"></script>
+	<!-- <script src="index.js"></script> -->
   </body>
 </html>

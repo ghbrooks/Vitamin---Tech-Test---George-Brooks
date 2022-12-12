@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cal{
+    display: flex;
+    width: 100vw;
+}
+
+.cal-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.cal-column_time {
+    width: 330px;
+    text-align: center;
+}
+
+.cal-column-slot {
+    height: 10%;
+    border: 1px #c0ccda solid;
+}
+.cal-column-slot_day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: 3%;
+}
+
+#submit-form labels {
+    width: 100%;
+    padding-top: 10px;
+}
