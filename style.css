@@ -14,6 +14,7 @@
     width: 100%;
     height: 80vh;
     justify-content: space-between;
+    border-left: 1px #c0ccda solid;
 }
 
 .cal-column_time {
@@ -23,12 +24,12 @@
 
 .cal-column-slot {
     height: 10%;
-    border: 1px #c0ccda solid;
 }
 .cal-column-slot_day {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px #c0ccda solid;
 }
 
 #submit-form {
