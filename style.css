@@ -24,12 +24,22 @@
 
 .cal-column-slot {
     height: 10%;
+    display: flex;
 }
 .cal-column-slot_day {
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px #c0ccda solid;
+}
+
+.event {
+    background: #6dc9fc;
+    border-radius: 5px;
+    margin: 2px;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
 }
 
 #submit-form {

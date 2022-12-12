@@ -1,19 +1,11 @@
-
-
 eventer = () => {
 
     let name = document.getElementById("name").value;
     let day = document.getElementById("day").value;
-    let time = document.getElementById("time").value;
-    // let class_name = "event-" + day + "-" time;
+    let timeVar = document.getElementById("timeVar").value;
+    let className = "event-" + day + "-" + timeVar;
 
-    let total = name + day + time
+    console.log(className);
 
-    console.log(total);
-
-
-
-    document.getElementById("event-mon-09").innerHTML+= name
-
-
+    document.getElementById(className).innerHTML+= `<div class="event">${name}</div>`
 }
