@@ -25,6 +25,7 @@
 .cal-column-slot {
     height: 10%;
     display: flex;
+    justify-content: center;
 }
 .cal-column-slot_day {
     display: flex;

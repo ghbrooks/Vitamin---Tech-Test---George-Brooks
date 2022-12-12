@@ -1,7 +1,13 @@
 # Vitamin - Tech Test - George Brooks 
+Either run though Node:
+
 1. `npm i`
 2. `http-server`
 3. go to `localhost:8080`
+
+-- or --
+
+Just open `index.html`
 # Vitamin London Tech test
 
 Your task is to build a simplified calendar view with a basic form that let’s the user add events to the calendar.
